@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>単位トレール</title>
+    <link rel="stylesheet" href="css/styles.css">
+        <div class="header">
+            <div class="header-logo">
+                <h1><a href="#"><img src="images/単位トレールロゴ透過11.png" class="logo-image" ></a></h1>
+            </div>
+            <div class="header-list">
+                <ul>
+                  <ui> <input type="button" onclick="location.href='#footer'" value="お問い合わせ" class="btn1"> </ui>
+                  <ui> <input type="button" onclick="location.href='./transition/explain.html'" value="単位トレールとは" class="btn2"> </ui>
+                </ul>
+            </div>
+        </div>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1">
+            <h1>単位数計算</h1>
+            <h3>履修した授業を選択してください。</h3>
+            <section class="tab_contents">
+                <div class="tab_wrap">
+                    <input id="tab1" type="radio" name="check" checked>
+                    <label for="tab1" class="tab_lab1">情報科学科</label>
+                    <input id="tab2" type="radio" name="check">
+                    <label for="tab2" class="tab_lab2">言語</label>
+                    <input id="tab3" type="radio" name="check">
+                    <label for="tab3" class="tab_lab3">その他</label>
+                    <div class="panels">
+                        <div id="area1" class="panel">
+                            <ul class="panel_content">
+                                <input type="checkbox" class="checks" value="2"> 学問の扉<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎プログラミング1<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎プログラミング1再<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎プログラミング2<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎プログラミング2再<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習1<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習1再<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習2<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習2再<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎線形代数1<br>
+                                <input type="checkbox" class="checks" value="2"> 情報処理入門1<br>
+                                <input type="checkbox" class="checks" value="2"> 情報処理入門2<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎線形代数2<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎微分積分1<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎微分積分1再<br>
+                                <input type="checkbox" class="checks" value="2"> 基礎微分積分2<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習3<br>
+                                <input type="checkbox" class="checks" value="1"> 情報科学実習4<br>
+                                <input type="checkbox" class="checks" value="2"> 実践プログラミング1<br>
+                                <input type="checkbox" class="checks" value="2"> 実践プログラミング2<br>
+                                <input type="checkbox" class="checks" value="2"> オブジェクト指向プログラミング入門<br>
+                                <input type="checkbox" class="checks" value="2"> webプログラミング<br>
+                                <input type="checkbox" class="checks" value="2"> マルチメディア表現<br>
+                                <input type="checkbox" class="checks" value="2"> データ科学1<br>
+                                <input type="checkbox" class="checks" value="2"> コンピューティング1<br>
+                                <input type="checkbox" class="checks" value="2"> 線形代数1<br>
+                                <input type="checkbox" class="checks" value="2"> 線形代数2<br>
+                                <input type="checkbox" class="checks" value="2"> 解析学1<br>
+                                <input type="checkbox" class="checks" value="2"> 解析学2<br>
+                                <input type="checkbox" class="checks" value="2"> 代数学<br>
+                                <input type="checkbox" class="checks" value="2"> 離散数学<br>
+                                <input type="checkbox" class="checks" value="2"> 確率論<br>
+                                <input type="checkbox" class="checks" value="2"> 情報科学講究1<br>
+                                <input type="checkbox" class="checks" value="2"> 情報科学講究2<br>
+                                <input type="checkbox" class="checks" value="2"> オブジェクト指向プログラミング<br>
+                                <input type="checkbox" class="checks" value="2"> 発展プログラミング<br>
+                                <input type="checkbox" class="checks" value="2"> 情報可視化・デジタルコンテンツ1<br>
+                                <input type="checkbox" class="checks" value="2"> デジタルコンテンツ・デジタルコンテンツ2<br>
+                                <input type="checkbox" class="checks" value="2"> マルチメディア情報処理<br>
+                                <input type="checkbox" class="checks" value="2"> ヒューマンインタフェース<br>
+                                <input type="checkbox" class="checks" value="2"> データ構造<br>
+                                <input type="checkbox" class="checks" value="2"> アルゴリズム<br>
+                                <input type="checkbox" class="checks" value="2"> オートマトンと形式言語<br>
+                                <input type="checkbox" class="checks" value="2"> 論理と計算<br>
+                                <input type="checkbox" class="checks" value="2"> データベース・知識情報処理<br>
+                                <input type="checkbox" class="checks" value="2"> データ科学2<br>
+                                <input type="checkbox" class="checks" value="2"> コンピューティング2<br>
+                                <input type="checkbox" class="checks" value="2"> 情報理論1<br>
+                                <input type="checkbox" class="checks" value="2"> 情報理論2<br>
+                                <input type="checkbox" class="checks" value="2"> 数理計画<br>
+                                <input type="checkbox" class="checks" value="2"> 幾何学<br>
+                                <input type="checkbox" class="checks" value="2"> 暗号理論<br>
+                                <input type="checkbox" class="checks" value="4"> 情報科学研究1<br>
+                                <input type="checkbox" class="checks" value="4"> 情報科学研究2<br>
+                                <input type="checkbox" class="checks" value="2"> グラフ理論<br>
+                                <input type="checkbox" class="checks" value="2"> コンピュータ科学特論<br>
+                                <input type="checkbox" class="checks" value="2"> 情報数理特論<br>
+                                <input type="checkbox" class="checks" value="2"> ソフトウェア科学特論<br>
+                                <input type="checkbox" class="checks" value="2"> システム解析1<br>
+                                <input type="checkbox" class="checks" value="2"> 微分方程式<br>
+                            </ul>
+                        </div>
+                        <div id="area2" class="panel">
+                            <ul class="panel_content">
+                                <input type="checkbox" class="checks" value="1"> 英語1<br>
+                                <input type="checkbox" class="checks" value="1"> 英語2<br>
+                                <input type="checkbox" class="checks" value="1"> 英語3<br>
+                                <input type="checkbox" class="checks" value="1"> 英語4<br>
+                                <input type="checkbox" class="checks" value="1"> 英語5<br>
+                                <input type="checkbox" class="checks" value="1"> 英語6<br>
+                                <input type="checkbox" class="checks" value="1"> 英語7<br>
+                                <input type="checkbox" class="checks" value="1"> 英語8<br>
+                                <input type="checkbox" class="checks" value="1"> 英語9<br>
+                                <input type="checkbox" class="checks" value="1"> 英語10<br>
+                                <input type="checkbox" class="checks" value="1"> 英語11<br>
+                                <input type="checkbox" class="checks" value="1"> 英語12<br>
+                                <input type="checkbox" class="checks" value="1"> その他外国語①<br>
+                                <input type="checkbox" class="checks" value="1"> その他外国語②<br>
+                                <input type="checkbox" class="checks" value="1"> 実用英語検定1<br>
+                                <input type="checkbox" class="checks" value="1"> 実用英語検定2<br>
+                                <input type="checkbox" class="checks" value="1"> TOEIC 1<br>
+                                <input type="checkbox" class="checks" value="1"> TOEIC 2<br>
+                                <input type="checkbox" class="checks" value="1"> TOEIC 3<br>
+                                <input type="checkbox" class="checks" value="1"> TOEIC 4<br>
+                                <input type="checkbox" class="checks" value="1"> TOEFL 1<br>
+                                <input type="checkbox" class="checks" value="1"> TOEFL 2<br>
+                                <input type="checkbox" class="checks" value="1"> IELTS 1・TOEFL 3<br>
+                                <input type="checkbox" class="checks" value="1"> IELTS 2・TOEFL 4<br>
+                                <input type="checkbox" class="checks" value="1"> 通訳英語・通訳英語1<br>
+                                <input type="checkbox" class="checks" value="1"> 通訳英語2<br>
+                                <input type="checkbox" class="checks" value="1"> ビジネス英語・ビジネス英語2<br>
+                                <input type="checkbox" class="checks" value="1"> 観光英語・観光英語1<br>
+                                <input type="checkbox" class="checks" value="1"> 英文翻訳法・英文翻訳法1<br>
+                                <input type="checkbox" class="checks" value="1"> 英文翻訳法2<br>
+                                <input type="checkbox" class="checks" value="1"> 英語リスニング1<br>
+                                <input type="checkbox" class="checks" value="1"> 英語リスニング2<br>
+                                <input type="checkbox" class="checks" value="1"> 英文ライティング1<br>
+                                <input type="checkbox" class="checks" value="1"> 英文ライティング2<br>
+                            </ul>
+                        </div>
+                        <div id="area3" class="panel">
+                            <ul class="panel_content">
+                                <input type="checkbox" class="checks" value="2"> 健康・スポーツ教育論<br>
+                                <input type="checkbox" class="checks" value="1"> 健康・スポーツ教育実習1<br>
+                                <input type="checkbox" class="checks" value="2"> 情報リテラシー<br>
+                                <input type="checkbox" class="checks" value="2"> 情報リテラシー・コンピュータ・情報リテラシー<br>
+                                <input type="checkbox" class="checks" value="2"> アカデミックICT基礎<br>
+                                <input type="checkbox" class="checks" value="2"> データ処理基礎・コンピュータデータ処理基礎<br>
+                                <input type="checkbox" class="checks" value="2"> 情報倫理・情報セキュリティ・コンピュータ・情報セキュリティ<br>
+                                <input type="checkbox" class="checks" value="2"> プレゼンテーション法・コンピュータプレゼンテーション法<br>
+                                <input type="checkbox" class="checks" value="2"> アルゴリズムとプログラミング基礎<br>
+                                <input type="checkbox" class="checks" value="2"> アルゴリズムとプログラミング応用<br>
+                                <input type="checkbox" class="checks" value="2"> ビッグデータサイエンス<br>
+                                <input type="checkbox" class="checks" value="2"> ICT機器活用法・ネットワーク構築1<br>
+                                <input type="checkbox" class="checks" value="2"> ネットワーク構築3<br>
+                                <input type="checkbox" class="checks" value="1"> ネットワーク構築演習3<br>
+                                <input type="checkbox" class="checks" value="3"> ネットワーク設計基礎(含演習)<br>
+                                <input type="checkbox" class="checks" value="2"> ネットワーク設計活用・ネットワーク構築4<br>
+                                <input type="checkbox" class="checks" value="2"> ネットワーク設計応用・ネットワーク構築演習4<br>
+                                <input type="checkbox" class="checks" value="2"> 情報セキュリティ基盤構築基礎・ネットワーク構築5<br>
+                                <input type="checkbox" class="checks" value="2"> 情報セキュリティ基盤構築応用・ネットワーク構築演習5<br>
+                                <input type="checkbox" class="checks" value="2"> 次世代情報基盤構築基礎・ネットワーク構築6<br>
+                                <input type="checkbox" class="checks" value="2"> 次世代情報基盤構築応用・ネットワーク構築演習6<br>
+                                <input type="checkbox" class="checks" value="2"> サーバー構築1<br>
+                                <input type="checkbox" class="checks" value="1"> サーバー構築演習1<br>
+                                <input type="checkbox" class="checks" value="3"> Windowsサーバー管理の基礎(含演習)<br>
+                                <input type="checkbox" class="checks" value="2"> サーバー構築2<br>
+                                <input type="checkbox" class="checks" value="1"> サーバー構築演習2<br>
+                                <input type="checkbox" class="checks" value="3"> サーバーの仮想か環境の構築(含演習)<br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-1-button">
+            <ul>
+                <ui>
+                    <button onclick="getValue()">単位数を計算する</button>
+                </ui>
+                <ui>
+                    <form class="myform" name="myform">
+                        <table cellpadding="1" cellspacing="0" border="0"></table>
+                        <tr>
+                            <td ><font>■合計単位:</font></td>
+                            <td ><output type="text" name="total" value="0">0</output></td>
+                        </tr>
+                    </form>
+                </ui>
+            </ul>
+        </div>
+    <script>
+        function getValue() {
+            let checks = document.getElementsByClassName('checks');
+            let sum = 0;
+            for (i = 0; i < 108; i++) {
+                if (checks[i].checked === true) {
+                    sum += Number(checks[i].value)
+                }
+            }
+            document.myform.total.value=sum;
+        }
+    </script>
+   </div>
+   <div class="container-2">
+    <h1>GPA計算</h1>
+            <h3>履修した授業の評価を入力してください。</h3>
+    <div class="container-2-form">
+        <form onsubmit="return false" id="example" oninput="result.value=(Math.round((Number(s.value)*4.0 + Number(a.value)*3.0+Number(b.value)*2.0+Number(c.value)*1.0)/(Number(s.value)+Number(a.value)+Number(b.value)+Number(c.value)+Number(d.value))*100)/100)">
+            <ul>
+                <ui>
+                    <table>
+                        <tbody>
+                            <div class="container-2-th1">
+                                <th>評価　</th>
+                            </div>
+                            <div class="container-2-th2">
+                                <th>取得単位数</th>
+                            </div>
+                        </tbody>
+                         <tr>
+                            <td>S</td>
+                            <td>
+                                <input name = "s" type="number" value="0" wtd-id="id0"> 
+                                単位
+                             </td>
+                         </tr>
+                         <tr>
+                            <td>A</td>
+                            <td>
+                                <input name = "a" type="number" value="0" wtd-id="id1">
+                                単位
+                            </td>
+                         </tr>
+                         <tr>
+                            <td>B</td>
+                            <td>
+                                 <input name = "b" type="number" value="0" wtd-id ="id2">
+                                 単位
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>
+                                <input name = "c" type="number" value="0" wtd-id="id3">
+                                単位
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>
+                                <input name = "d" type="number" value="0" wtd-id="id4">
+                                単位
+                            </td>
+                        </tr>
+                </table>
+            </ui>
+            <ui>
+                <div class="gpa-result">
+                    <p>■GPA：<output name="result" form="example">0</output></p>
+                </div>
+            </ui>
+            </ul>
+        </form>
+    </div>
+   </div>
+</div>
+</body>
+<footer id="footer">
+    <body>
+        <div class="footer">
+            <div class="footer-logo">&lt;お問い合わせ&gt;</div>
+            <div class="footer-list">
+                日本大学 文理学部 情報科学科 野邊拓海
+            </div>
+        </div>
+    </body>
+</footer>
+<style>
+
+html{scroll-behavior: smooth;}
+  .gotop{
+    display: block;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 1px solid #999;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 85%;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.gotop::before{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.gotop:hover{
+    opacity: 1;
+}
+
+@media(max-width:750px){
+    .gotop{
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        opacity: 1;
+        border: none;
+        background: none;
+        bottom: 10px;
+        right: 10px;
+    }
+    .gotop::before{
+        bottom: 0;
+    }
+}
+</style>
+<a href="#" class="gotop">トップへ</a>
+
+</html>

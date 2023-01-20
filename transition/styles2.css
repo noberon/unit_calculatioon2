@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: #fff;
+    width: auto;
+    margin: 0;
+}
+
+.button input {
+    font-size: 30px;
+    width: 10%;
+    height: 30%;
+    margin: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #2A2C2C, #97e8e5);
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.header-list{
+    width: 3em;
+    float: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 40px 20px;
+}
+
+.main{
+    font-size: 20px;
+    padding: 5% 5% 20% 5%;
+    background-color: aliceblue;
+}
+
+.main h1  {
+    padding: 0.4em 0.4em 0 0.5em;
+    color: gray;
+    background: #f4f4f4;
+    border-left: solid 7px #7db4e6;
+}
+
+.main h2  {
+    padding: 1em 1em;
+    color: gray;
+}
+
+.sentence h3{
+    padding: 0 2em;
+    color: gray;
+}
+.process1 h3{
+    padding: 0 5em;
+    color: gray;
+}
+
+.process2 h3{
+    padding: 0 5em;
+    color: gray;
+}
+
+.footer {
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: #fff;
+    height: 100px;
+    width: auto;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 35px;
+}
+
+.footer-list {
+    float: right;
+    font-size: 30px;
+    padding-bottom: 30px;
+}

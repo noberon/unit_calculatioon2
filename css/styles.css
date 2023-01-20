@@ -1,0 +1,218 @@
+.header {
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: rgb(3, 3, 3);
+    height: 150px;
+    width: auto;
+}
+
+ .header-list input {
+    font-size: 30px;
+    width: 100%;
+    height: 200%;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: #fff;
+    border: 3px solid rgba(79, 87, 84, 0.43);
+  }
+
+.header-logo{
+    height: 0;
+}
+
+.logo-image{
+    float: left;
+    padding: 15px 40px;
+    height: 40%;
+    width: 40%;
+}
+
+.header-list ui {
+    float: right;
+    font-size: 30px;
+    padding: 40px 20px;
+}
+
+body{
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+.container{
+    font-size: 20px;
+    padding: 5%;
+    background-color: aliceblue;
+}
+
+.container-1 h1  {
+    padding: 0.4em 0.4em 0 0.5em;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 7px #7db4e6;
+}
+
+.container-1 h3{
+    padding: 0.4em 1em;
+    color: #494949;
+}
+
+
+.tab_contents {
+	width: 100%;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.tab_wrap {
+	width: 70%;
+	margin: 50px auto;
+	opacity: 0.8;
+}
+
+/*タブボタンデザイン*/
+.tab_lab1, .tab_lab2, .tab_lab3 {
+	background: #242424;
+	color: #fff;
+	padding: 15px;
+}
+
+/*タブにチェック入ったとき*/
+#tab1:checked~.tab_lab1 {
+	background: #26d0c9;
+	color: white;
+}
+#tab2:checked~.tab_lab2 {
+	background: #26d0c9;
+	color: white;
+}
+#tab3:checked~.tab_lab3 {
+	background: #26d0c9;
+	color: white;
+}
+
+/*タブボタンとボックス連動*/
+#tab1:checked~.panels #area1 {
+	display: block;
+	background: hsl(177, 42%, 83%);
+}
+#tab2:checked~.panels #area2 {
+	display: block;
+	background: hsl(177, 42%, 83%);
+}
+#tab3:checked~.panels #area3 {
+	display: block;
+	background: hsl(177, 42%, 83%);
+}
+
+/*チェックボックスとボックス非表示*/
+input[name="check"] {
+	display: none;
+}
+.panel {
+	padding: 10px;
+	display: none;
+    color: rgb(94, 93, 93);
+}
+
+.container-1-button ul {
+    display: flex;
+    margin: 3%  10% 20% 20%;
+}
+
+.myform{
+    font-size: 30px;
+    width: 10em;
+    height: auto;
+    padding: 20% 5%;
+    margin: 5% 40%;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right,#2A2C2C,#97e8e5);
+    color: #fff;
+    border: 5px solid rgba(79, 87, 84, 0.43);
+}
+
+button {
+    font-size: 30px;
+    width: 10em;
+    height: 3em;
+    margin: 20% 0;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: white;
+    border: 5px solid rgba(79, 87, 84, 0.43);
+}
+
+.container-2{
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+.container-2 h1  {
+    padding: 0.4em 0.4em 0 0.5em;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 7px #7db4e6;
+}
+
+.container-2 h3{
+    padding: 0.4em 1em;
+    color: #494949;
+}
+
+.container-2-form{
+    font-size: 40px;
+    color: gray;
+    margin: 8% 0;
+}
+
+.container-2-form ul {
+    display: flex;
+    margin: 3%  10% 20% 20%;
+}
+
+.container-2-th1 .container-2-th2{
+    font-size: 40px;
+    padding: 100px;
+}
+
+.container-2 input{
+    font-size: 40px;
+    width: 5em;
+    height: 2em;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    border: 2px solid rgba(79, 87, 84, 0.43);
+}
+
+.gpa-result{
+    font-size: 30px;
+    width: 8em;
+    height: auto;
+    padding: 5%;
+    margin: 130%;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right,#2A2C2C,#97e8e5);
+    color: #fff;
+    border: 5px solid rgba(79, 87, 84, 0.43);
+}
+
+.footer {
+    background: linear-gradient(to bottom right, #97e8e5,#2A2C2C);
+    color: #fff;
+    height: 100px;
+    width: auto;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 35px;
+}
+
+.footer-list {
+    float: right;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
